@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    
+    
+    <title>Chci byt programatorem</title>
+</head>
+<body>
+    <header class = "header">
+        <a href="https://www.ssakhk.cz/" target="_blank" class = "logo"><img src="images/logo.svg"></a>
+        <nav class = "navigate">
+            <a href="#proc-programator">Proč programator</a>
+            <a href="#budoucnost">Budoucnost</a>
+            <a href="#jak-na-to">Jak na to?</a>
+            <a href="#dalsi-moznosti">Další možnosti</a>
+            <a href="#co-je-kyberna">Co je kyberna?</a>
+        </nav>
+    </header>
+    <hr class="topLine">
+    <section class = "mainSection">
+        <div class = "mainContent">
+            <div class = "mainText">
+                <h1>Chceš být<br>programatorem?</h1>
+                <h2>Nevíš jak na to?</h2>
+                <a href="#proc-programator"><button class = "btn-hover">Přečti si více</button></a>
+            </div>
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256" class = "javaScriptIcon">
+                <g fill="#ff7120" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M43.33594,4h-36.66797c-1.47266,0 -2.66797,1.19531 -2.66797,2.66797v36.66406c0,1.47266 1.19531,2.66797 2.66797,2.66797h36.66406c1.47266,0 2.66797,-1.19531 2.66797,-2.66406v-36.66797c0,-1.47266 -1.19531,-2.66797 -2.66406,-2.66797zM27,36.18359c0,3.99609 -2.34375,5.81641 -5.76562,5.81641c-3.09375,0 -5.32422,-2.07422 -6.23437,-4l3.14453,-1.90234c0.60547,1.07422 1.52734,1.90234 2.85547,1.90234c1.26953,0 2,-0.49609 2,-2.42578v-12.57422h4zM35.67578,42c-3.54297,0 -5.55469,-1.78516 -6.67578,-4l3,-2c0.81641,1.33594 1.70703,2.61328 3.58984,2.61328c1.58203,0 2.41016,-0.78906 2.41016,-1.88281c0,-1.30469 -0.85937,-1.76953 -2.59766,-2.53125l-0.95312,-0.41016c-2.75391,-1.17187 -4.58594,-2.64062 -4.58594,-5.75c0,-2.85937 2.18359,-5.03906 5.58984,-5.03906c2.42578,0 4.16797,0.84375 5.42578,3.05469l-2.96875,1.91016c-0.65625,-1.17578 -1.35937,-1.63672 -2.45703,-1.63672c-1.11719,0 -1.82422,0.71094 -1.82422,1.63672c0,1.14453 0.70703,1.60547 2.34375,2.31641l0.95313,0.41016c3.24609,1.38672 5.07422,2.80469 5.07422,5.99219c0,3.43359 -2.69922,5.31641 -6.32422,5.31641z"></path></g></g>
+                </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256" class = "CsharpIcon">
+                <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M22.903,3.286c0.679,-0.381 1.515,-0.381 2.193,0c3.355,1.883 13.451,7.551 16.807,9.434c0.679,0.38 1.097,1.084 1.097,1.846c0,3.766 0,15.101 0,18.867c0,0.762 -0.418,1.466 -1.097,1.847c-3.355,1.883 -13.451,7.551 -16.807,9.434c-0.679,0.381 -1.515,0.381 -2.193,0c-3.355,-1.883 -13.451,-7.551 -16.807,-9.434c-0.678,-0.381 -1.096,-1.084 -1.096,-1.846c0,-3.766 0,-15.101 0,-18.867c0,-0.762 0.418,-1.466 1.097,-1.847c3.354,-1.883 13.452,-7.551 16.806,-9.434z" fill="#ff7120"></path><path d="M5.304,34.404c-0.266,-0.356 -0.304,-0.694 -0.304,-1.149c0,-3.744 0,-15.014 0,-18.759c0,-0.758 0.417,-1.458 1.094,-1.836c3.343,-1.872 13.405,-7.507 16.748,-9.38c0.677,-0.379 1.594,-0.371 2.271,0.008c3.343,1.872 13.371,7.459 16.714,9.331c0.27,0.152 0.476,0.335 0.66,0.576z" fill="#ff7120"></path><path d="M24,10c7.727,0 14,6.273 14,14c0,7.727 -6.273,14 -14,14c-7.727,0 -14,-6.273 -14,-14c0,-7.727 6.273,-14 14,-14zM24,17c3.863,0 7,3.136 7,7c0,3.863 -3.137,7 -7,7c-3.863,0 -7,-3.137 -7,-7c0,-3.864 3.136,-7 7,-7z" fill="#ffffff"></path><path d="M42.485,13.205c0.516,0.483 0.506,1.211 0.506,1.784c0,3.795 -0.032,14.589 0.009,18.384c0.004,0.396 -0.127,0.813 -0.323,1.127l-19.084,-10.5z" fill="#ff7120"></path><path d="M34,20h1v8h-1zM37,20h1v8h-1z" fill="#ffffff"></path><path d="M32,25h8v1h-8zM32,22h8v1h-8z" fill="#ffffff"></path></g></g>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256" class="htmlIcon">
+                    <g fill="#ff7120" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="translate(69.06479,-43.15247) rotate(26) scale(10.66667,10.66667)"><path d="M20.999,2h-18l2,18l7,2l7,-2zM16.825,8.083h-7.656l0.182,2.179h7.29l-0.547,6.439l-4.093,1.302l-0.04,-0.013l-4.047,-1.29l-0.221,-2.624h1.982l0.087,1.019l2.261,0.498l2.221,-0.499l0.236,-2.755h-6.936l-0.537,-6.339h9.996z"></path></g></g>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256" class="CSSicon">
+                        <g fill="#ff7120" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="translate(104.94881,-53.86315) rotate(40) scale(5.12,5.12)"><path d="M42,6l-3,34l-14,4l-14,-4l-3,-34zM16.80078,28h4l0.09766,2.5l4.10156,1.39844l4.10156,-1.39844l0.29688,-4.5h-8.79687l-0.20312,-4h9.20313l0.29688,-4h-13.79687l-0.30078,-4h18.30078l-0.5,8l-0.70312,11.5l-7.89844,2.60156l-7.89844,-2.60156z"></path></g></g>
+                        </svg> -->
+                
+                <img src="images/enlarge_programming_guy-removebg-preview__1_.png" alt="Programovani obor" class = "mainImage">
+            
+        </div>
+    </section>
+
+
+    <section class = "whyProgrammer" id="proc-programator">
+        <div class="whyProgContent">
+            <h2 class = "whyProgName">Proč zrovna programator?</h2>
+        </div>
+        <div class="reasons">
+            
+                <div class="reasonWrap">
+                    <!-- <iconify-icon icon="formkit:arrowright" class="arrowRight" onclick="RightSlide()"></iconify-icon> -->
+                    <div class="reasonList">
+                            <div class="reason">
+                                <div class="reason-inner">
+                                    <h2 class="project-title">Flexibilita</h2>
+                                    <p class="project-description"> Když jseš programator tak můžes si v podstatě 
+                                        vybírat čas podle sebe, hlavně abys udělal něco do určitého deadlinu, jinak můžes 
+                                        řídit svojí praci podle sebe a pracovat tak jak ti to vyhovuje </p>
+                                        <iconify-icon icon="bi:clock" class="clockIcon"></iconify-icon>
+                                </div>    
+                            </div> 
+                        <div class="reason">
+                            <div class="reason-inner">
+                                <h2 class="project-title">Home office</h2>
+                                <p class="project-description">Další velkou vyhodou programování, že můžes 
+                                    dělat svojí praci doma a stejně za to ziskavat praci, což je hustý 
+                                    pro ty lidi co nerád vstavají brzo aby dojižděli na svojí pracovní místo</p>
+                                    <iconify-icon icon="ri:home-office-fill" class="homeIcon"></iconify-icon>
+
+                            </div>
+                        </div>
+                        <div class="reason">
+                            <div class="reason-inner">
+                                <h2 class="project-title">Velký vyběr</h2>
+                                <p class="project-description">Taký velkou vyhodou je velký výběr práci ve 
+                                    světu programování. Můžeš být kymkoliv. Game designer, 
+                                    data scientiest, web developer apod. A v každé větví programování se 
+                                    vyžadují specialisty. Tak makej, možná ním staneš se i ty ;)   </p>
+                                    <iconify-icon icon="material-symbols:editor-choice-rounded" class="choiceIcon"></iconify-icon>
+                            </div>
+                        </div>
+                        <div class="reason">
+                            <div class="reason-inner">
+                                <h2 class="project-title">Kreativita</h2>
+                                <p class="project-description">Když jsi člověk, co má rád vymyšlet nové a zajímavé věci
+                                    ,tak programování je určitě pro tebe. Tady můžes vymyslet uplně něco nového, co před tím nikdo 
+                                    nevymyslel. Může to být cokoliv. Všechny napady v programovaní jsou vítané. Ale určitě pro to musí se 
+                                    člověk snažit a učit potřebné jazyky, aby mohl něco takového vytvořít
+                                </p>
+                                <iconify-icon icon="mdi:head-idea-outline" class="ideaIcon"></iconify-icon>
+                            </div>
+                        </div>
+                        <div class="reason">
+                            <div class="reason-inner">
+                                <h2 class="project-title">Důležitost</h2>
+                                <p class="project-description">Programování na počítači je žádoucí dovednost, protože mnoho 
+                                    částí našeho světa je automatizováno online. Jako programátor budete psát
+                                    a testovat kódy pro vytváření webových stránek a softwarových programů nebo 
+                                    udržovat běh a správnou funkci existujících programů.
+                                     Vaším cílem je inovovat a neustále zdokonalovat existující procesy. </p>
+                                     <iconify-icon icon="material-symbols:important-devices-outline" class="importantIcon"></iconify-icon>
+                            </div>
+                        </div>
+                        <div class="reason">
+                            <div class="reason-inner">
+                                <h2 class="project-title">F2P</h2>
+                                <p class="project-description">Znalosti zdarma jsou jedním z klíčových důvodů, proč se stát programátorem.
+                                     V oblasti programování máte přístup k širokému spektru zdrojů a
+                                      komunit, které nabízejí bohaté informace a výukové materiály zdarma. Kurzy, video, tutorialy - 
+                                      tohle všeshno můžete ziskat a nezaplatit ani korunu </p>
+                                      <iconify-icon icon="tabler:free-rights" class="freeIcon"></iconify-icon>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- <iconify-icon icon="formkit:arrowleft" class="arrowLeft" onclick="LeftSlide()"></iconify-icon> -->
+            </div>
+            
+    </section>
+
+
+    <section class="budoucnost" id="budoucnost">
+        <h2 class="budoucnostTittle">Budoucnost</h2>
+        <div class="budoucnostObsah">
+            <div class ="imageWrap">
+                <img src="images/enlarge_budoucnostSectImage.png" alt="budoucnost image" class = "budoucnostImage">
+            </div>
+            <div class="budoucnostItemsWrap">
+                <div class="budoucnostItem">
+                    <iconify-icon icon="fluent:people-community-16-filled" class="budoucnostIcons"></iconify-icon>
+                    <div class = "budoucnostText">
+                        <h3 class="budoucnostItemTittle">Práce v společnosti</h3>
+                        <p class="budoucnostDecr">Vstupte do světa programování, kde každý řádek kódu otevírá dveře k
+                             novým dovednostem a výzvám. Spolupracujte s týmem nadšených programátorů
+                             , kteří vám pomohou objevit tajemství softwarového vývoje. 
+                             Vaše kariéra není jen o pracovním místě, ale o neustálém růstu a objevování.
+                        </p>
+                    </div>
+                </div>
+                <div class="budoucnostItem">
+                    <iconify-icon icon="bi:cash-coin" class="budoucnostIcons"></iconify-icon>
+                    <div class = "budoucnostText">
+                        <h3 class="budoucnostItemTittle">Dobrý plátek</h3>
+                        <p class="budoucnostDecr">S postupem ve svém programátorském 
+                            dovednostním spektru nejen zvyšujete své příjmy, ale také si užíváte
+                             sladké ovoce své práce. Každý vyřešený problém a každý úspěšný 
+                             projekt jsou kroky k finančním odměnám a osobnímu uspokojení.
+                        </p>
+                    </div>
+                </div>
+                <div class="budoucnostItem">
+                    <iconify-icon icon="fluent-mdl2:game" class="budoucnostIcons"></iconify-icon>
+                    <div class = "budoucnostText">
+                        <h3 class="budoucnostItemTittle">Vlastni vyvoj</h3>
+                        <p class="budoucnostDecr">Získejte svobodu vyjádřit svou kreativitu a posunout 
+                            hranice technologických možností. Projděte se vlastním vývojem, kde můžete vytvářet,
+                             inovovat a zkoumat nové technologie. Programování není jen o psaní kódu; 
+                             je to cesta osobního a profesního rozvoje.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class = "jak-na-to" id="jak-na-to">
+        <h2 class="jakNatoTittle">Jak postupovat?</h2>
+        <div class="jakNaToBlocks">
+            <div class="jakNaToBlock first">
+                <div class = "jakNaToMainText">
+                    <p class = "jakNaToKrok">KROK PRVNÍ</p>
+                    <h2 class="jakNatoTextTitle">Zvolit si směr</h2>
+                    <p class="jakNaToDecription">Strašně důležité je si hned uvědomit
+                        co přesně chcete dělat. Chcete-li dělat hry pomoci Unity nebo 
+                        Unreal Engine, možná chcete dělat webové stránky a z toho dělat 
+                        jen frontend nebo backend. Nebo mohou to taký být nějaké dekstopové 
+                        aplikace nebo vývoj pro adnroidy či iphony. 
+                    </p>
+                </div>
+                <div class="jakNaToImaheWrappper">
+                    <img src="images/krokPrvniImg.jpg" alt="krok prvni foto" class="JakNaToImage">
+                </div>
+            </div>
+            <div class="jakNaToBlock">
+                <div class="jakNaToImaheWrappper">
+                    <img src="images/krokDruhyImg.jpg" alt="krok druhy foto" class="JakNaToImage">
+                </div>
+                <div class = "jakNaToMainText">
+                    <p class = "jakNaToKrok">KROK DRUHÝ</p>
+                    <h2 class="jakNatoTextTitle">Zvolit si vhodný jazyk</h2>
+                    <p class="jakNaToDecription">Potom až si zvolite směr programovaní, 
+                        je důležité učit pro to vhodné jázyky pro určitou větev. To způsobeno tím, 
+                        že každý jázyk je nejlepší na nějakou určitou věc. Když to je třeba vývoj 
+                        her pomoci Unity tak nejlepší na to je C#. Když to je třeba backend tak 
+                        nejlíp na to se hodí javascript a php.    
+                    </p>
+                </div>
+            </div>
+            <div class="jakNaToBlock third">
+                <div class = "jakNaToMainText">
+                    <p class = "jakNaToKrok">KROK TŘETÍ</p>
+                    <h2 class="jakNatoTextTitle">Najít si materiály</h2>
+                    <p class="jakNaToDecription">Až si výberete jázyk pro začatek, 
+                        tak určitě bude dobrý najít si nějaká videa nebo kurzy, kde vám 
+                        specialisti ukážou základy určitého jázyka, nebo třeba koukat na 
+                        různé hotové projekty a snažit se pochopit jak to funguje. 
+                    </p>
+                </div>
+                <div class="jakNaToImaheWrappper">
+                    <img src="images/krokTretiImg.png" alt="krok treti foto" class="JakNaToImage">
+                </div>
+            </div>
+            <div class="jakNaToBlock">
+                <div class="jakNaToImaheWrappper">
+                    <img src="images/krokCtvrtyImg.png" alt="krok ctvrty foto" class="JakNaToImage">
+                </div>
+                <div class = "jakNaToMainText">
+                    <p class = "jakNaToKrok">KROK ČTVRTÝ</p>
+                    <h2 class="jakNatoTextTitle">Programovat</h2>
+                    <p class="jakNaToDecription">Ano, je to docela banalní věc,
+                        ale nejlepší je nějaký materiál zajistit praktikou. Vždycky 
+                        zkoušet si něco vlastního napsát, protože v tu chvili se nejlíp 
+                        naučite myslet jako programator a hlavně nebojte se zkoušet nové 
+                        věci. Čím víc programování - tím líp 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dalsi-moznosti" id="dalsi-moznosti">
+        <h2 class="dalsiMoznostiMainTittle">Další možnosti</h2>
+        <div class="dalsiMoznostiObsah">      
+            <div class="dalsiImageWrap">
+                <img src="images/image 12.jpg" alt="kybernaLogo" width="450px">
+            </div>
+            <div class="dalsiMainTextWrap">
+                <h2 class="dalsiTitle">Vybrat specializovanou školu</h2>
+                <p class="dalsiPopis">Někdy nestačí pouze najít si kurzy a nějaké studijní materiály, 
+                    takže pokud planujete se učit programování na nejvyšší úrovní 
+                    tak je dobrý si mimo samostatného účení výbrat si nějakou školu tohoto oboru. 
+                    Je to dobře když tě učí specialisty co učí programko celý život,
+                    a můžes je zeptat na jakoukoliv otázku a oní vam odpoví. Jedna z 
+                    takových škol je výborná Střední škola aplikované kybernetiky(Kyberna)
+                </p>
+                <a href="#co-je-kyberna" class="viceOkybene">Přečíst o kyberně</a>
+            </div>
+        </div>
+    </section>
+    <section class="co-je-kyberna" id="co-je-kyberna">
+        <div class="coJeKybernaWrap">
+            <div class="coJeKybernaTextWrap">
+                <h2 class="coJekybernaTitle">Co je Kyberna?</h2>
+                <p class="coJekybernaDecription">Střední škola aplikované kybernetiky je škola v Hradci Králove, 
+                    která se zabyvá programovaním a různymi aplikačními technologiimi. 
+                    Ve své zkušenosti už má skoro 30 let za sebou a je jedna z prvních škol, která timto oborem se 
+                    zabyvá. Po kyberně budou vám otevřené všechny dveře v oblasti programovaní. 
+                    Dnes absolventu kyberny najdeš ve velkých společnostech jako Alza, Tesla někdy i Microsoft 
+                </p>
+            </div>
+            <div class="coJeKybernaImageWrap">
+                <img src="images/pleasedWithKyberna.jpg" alt="kyberna foto" class="coJeKybernaImage">
+            </div>
+        </div>
+        <div class="procNaKybernuWrap">
+            <h2 class="procNaKybernuTitle">Proč na Kybernu?</h2>
+            <div class="procNaKybernuItems">
+                <div class="procNaKybernuItem">
+                    <iconify-icon icon="material-symbols:monitor-outline" class="itemIcons"></iconify-icon>
+                    <h2 class="itemTittle">Výuka</h2>
+                    <p class="itemDecription">Výuka na kyberně je vždy na straně studenta,
+                        je udělana tak, aby bylo tomu studentovi bylo příjemne se učit
+                        ve škole a je podobná vyúce na vysokých školách, kde každemu studentu 
+                        je individuální přistup 
+                    </p>                    
+                </div>
+                <div class="procNaKybernuItem">
+                    <iconify-icon icon="mdi:teacher" class="itemIcons"></iconify-icon>
+                    <h2 class="itemTittle">Učitele</h2>
+                    <p class="itemDecription">Učitele na kyberně jsou odborníky, 
+                        kteři mají už za sebou hodně let praxi a proto mohou vam odpovědět
+                        na veškere otázky, protože to jsou lidi, co ví o čem mluví 
+                        a jsou studentům ochotní pomoct. 
+                    </p>                    
+                </div>
+                <div class="procNaKybernuItem">
+                    <iconify-icon icon="foundation:torso-business" class="itemIcons"></iconify-icon>
+                    <h2 class="itemTittle">Uplatnění </h2>
+                    <p class="itemDecription">Po kyberně dokažes dělat cokoliv 
+                        ohledně programovaní, dnes jsou programatoři ve velké potřebě 
+                        a není problem si po kyberně najít dobře placenou práci u velkých 
+                        firmách jako třeba Tesla, Alza apod. 
+                    </p>                    
+                </div>
+            </div>            
+        </div>
+        <div class="coSeUCiWrap">
+            <h2 class="procNaKybernuTitle">Co se učí na Kyberně?</h2>
+            
+            <div class="coSeUciItems">
+                <div class="twoItemsPerRow">
+                    <div class="coSeUciItem">
+                        <h2 class="coSeUciItemTitle">HTML</h2>
+                        <img src="images/Html 5.png">
+                        <p class="coSeUciItemDesr">HTML znamená HyperText Markup Language (HyperText Značkovací Jazyk) a 
+                            je základním stavebním kamenem pro vytváření webových stránek a webových aplikací. 
+                            Je to standardizovaný jazyk používaný k popisu struktury dokumentu a propojení 
+                            různých částí pomocí hypertextových odkazů. HTML umožňuje vývojářům vytvářet 
+                            obsah s hierarchií a logickou strukturou, což usnadňuje prohlížení
+                             a interpretaci stránek pro uživatele i prohlížeče.
+                        </p>
+                    </div>
+                    <div class="coSeUciItem">
+                        <h2 class="coSeUciItemTitle cssType">CSS</h2>
+                        <img src="images/CSS3.png">
+                        <p class="coSeUciItemDesr">CSS znamená Cascading Style Sheets (Kaskádové styly) a je
+                             jazyk, který se používá k popisu vizuální prezentace 
+                             webových dokumentů napsaných v 
+                             HTML nebo jiných značkovacích jazycích. CSS umožňuje 
+                             oddělit obsah stránky od jejího 
+                             vizuálního provedení, což usnadňuje údržbu, aktualizaci 
+                             a konzistentnost vzhledu webových stránek. 
+                        </p>
+                    </div>
+                </div>
+                <div class="twoItemsPerRow">
+                    <div class="coSeUciItem">
+                        <h2 class="coSeUciItemTitle javascriptType">Javascript</h2>
+                        <img src="images/JavaScript Logo.png" class="javascriptIconItem">
+                        <p class="coSeUciItemDesr">JavaScript je vysokoúrovňový, interpretovaný programovací jazyk, který se 
+                            obvykle používá pro vývoj interaktivních webových stránek. Jedná se o skriptovací jazyk, který běží 
+                            přímo v prohlížeči uživatele a umožňuje manipulaci s obsahem stránky, 
+                            reakci na události a komunikaci s uživatelem.
+                        </p>
+                    </div>
+                    <div class="coSeUciItem">
+                        <h2 class="coSeUciItemTitle CsharpType">C#</h2>
+                        <img src="images/C Sharp Logo 2.png" class="CSharpIconItem">
+                        <p class="coSeUciItemDesr">C# (vyslovuje se "C sharp") je moderní, víceúčelový, objektově orientovaný 
+                            programovací jazyk vyvinutý společností Microsoft. Byl představen v roce 2000 jako součást
+                             platformy .NET Framework, a od té doby se stal jedním z klíčových
+                              jazyků pro vývoj aplikací pro platformy Microsoft, 
+                              včetně desktopových aplikací, webových aplikací a her.
+                        </p>
+                    </div>
+                </div>
+                <div class="twoItemsPerRow">
+                    <div class="coSeUciItem">
+                        <h2 class="coSeUciItemTitle CPlusPlusType">C++</h2>
+                        <img src="images/cplusplus_original_logo_icon_146581.png" class="CSharpIconItem">
+                        <p class="coSeUciItemDesr">C++ je vysokoúrovňový programovací jazyk, 
+                            který byl vyvinut Bjarne Stroustrupem jako rozšíření jazyka C. 
+                            Byl poprvé představen v roce 1983. C++ kombinuje prvky imperativního, 
+                            objektově orientovaného a generického programování, což poskytuje 
+                            programátorům široké možnosti pro tvorbu efektivního a flexibilního kódu.
+                        </p>
+                    </div>
+                    <div class="coSeUciItem">
+                        <h2 class="coSeUciItemTitle arduinoType">Arduino</h2>
+                        <img src="images/Arduino.png" class="CSharpIconItem">
+                        <p class="coSeUciItemDesr">Arduino je otevřená platforma pro prototypování a vývoj 
+                            elektronických projektů. Zahrnuje jak hardware, tak i software, které 
+                            umožňují tvorbu interaktivních zařízení. Arduino poskytuje jednoduchý 
+                            a přístupný způsob pro nadšence, studenty, umělce a vývojáře, 
+                            kteří chtějí experimentovat s elektronikou a programováním.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>           
+        </div>
+        <div class="contact">
+            <h2 class="napisNamTitle">Napiš nám</h2>
+        
+            <div class="contactWrap">
+
+                <div class="contactFormContainer">
+                    <form name = 'submit-to-google-sheet'>
+                        <div class = "boxInput">
+                            <div class = "fieldInput">
+                                <iconify-icon icon="bi:person-fill" class="inputIcon"></iconify-icon>
+                                <input name="Full name" type="text"  placeholder="Jmeno" required>
+                            </div>
+                        </div>
+                        <div class = "boxInput">
+                            <div class = "fieldInput">
+                                <iconify-icon icon="bi:send-fill" class="inputIcon"></iconify-icon>
+                                <input name="Email" type="email"  placeholder="Email">
+                            </div>
+                        </div>
+                        <div class = "textAreaInput">
+                            <textarea  name = "Message" cols="30" rows="10" placeholder="Your message" required></textarea>
+                        </div>
+        
+                        <div class = "btnSubmitForm">
+                            <button type= 'submit' class="btn-hover send-button">Send</button>
+                        </div>
+                        <span id = "msg"></span>
+                        <script src="contactForm.js"></script>
+                    </form>
+                </div>
+                <div class="haveQuestionWrap">
+                    <h2 class="masDotazTittle">Máš dotáz?</h2>
+                    <p class="masDotazDesr">Pokud máš jakykoliv dotáz ohledně kyberny, tak můžes odeslat
+                        formulář nebo přečíst více informaci na oficialní stránce kyberny
+                    </p>
+                    <a href="https://www.kyberna.cz" class="masDotazLink" target="_blank">&lt;a>Přejít na Kybernu&lt;/a></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footerText">&copy;Powered by Kyberna</p>
+        <p class="footerText">Created by&nbsp;<a href="https://yuriyloyka.netlify.app/" target="_blank">Loyka Yuriy</a></p>
+    </footer>
+</body>
+    <script src="menuSlider.js"></script>
+</html>
