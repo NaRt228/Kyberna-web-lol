@@ -1000,8 +1000,8 @@ h2 {
         font-size: 34px;
     }
     .coSeUciItem {
-        padding: 31px 47px 10px 11px;
-        height: 369px;
+        padding: 31px 47px 28px 11px;
+        height: auto;
         width: 321px;
     }
     .twoItemsPerRow {
